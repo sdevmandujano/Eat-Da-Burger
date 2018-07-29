@@ -1,0 +1,35 @@
+{
+  "name": "eat-the-buger",
+  "version": "1.0.0",
+  "description": "A restaurant app that lets eat burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdevmandujano/Eat-The-Burger.git"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "express-handlebars",
+    "body-parser",
+    "MySQL",
+    "method-override"
+  ],
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdevmandujano/Eat-The-Burger.git"
+  },
+  "homepage": "https://github.com/sdevmandujano/Eat-The-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
